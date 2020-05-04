@@ -1,0 +1,90 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+#header{
+	width: 100%;
+	height: 200px;
+	background: #c0c0c0 url(img/myfirst.gif);
+	background-size: 100% 200px;
+	float: left;
+}
+#logo{
+	width: 50px;
+	height:50px;
+	background: url(img/logo.png);
+	float: right;
+}
+#upper-menu{
+	width: 100%;
+	height: 20px;
+	background: #F08E0A;
+	float: left;
+}
+#left-menu{
+	width: 20%;
+	height: 400px;
+	background: #06A30D;
+	float: left;
+}
+a:link{
+	size: 5px;
+	color: #ffa500;
+	font-family: cursive;
+	text-decoration: none;
+}
+a:visited{
+	size: 5px;
+	color: #ffa500;
+	font-family: cursive;
+	text-decoration: none;
+}
+a:active{}
+a:hover{}
+#content{
+	width: 60%;
+	height: 400px;
+	background: #ffefd5;
+	float: left;
+}
+.layer {
+    overflow: scroll; /* Добавляем полосы прокрутки */
+    width: 99%; /* Ширина блока */
+    height: 390px; /* Высота блока */
+    padding: 5px; /* Поля вокруг текста */
+    border: none; /* Параметры рамки */
+   }
+#right-menu{
+	width: 20%;
+	height: 400px;
+	background: #06A30D;
+	float: left;
+}
+#footer{
+	width: 100%;
+	height: 110px;
+	background: #c0c0c0;
+	float: left;
+}
+.name{
+	width: 64px;
+	height: 20px;
+	background: #ffffff;
+	float: right;
+}
+h1{
+	text-align: center;
+	color: #0000ff;
+	line-height: 2;
+}
+h2{
+	text-align: center;
+}
+h3{
+	
+}
+p{
+	line-height: 1.2;
+	color: #ff4500;
+	
+}
